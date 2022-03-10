@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container">
         <div className="left">
           <p>Buy & Sell Crypto 24/7 using your retirement account</p>
-          <h1>Invest in Cryptocurrent with your IRA</h1>
+          <h1>Invest in Cryptocurrency with your IRA</h1>
           <p>Buy, Sell, and Store hundreds of cryptocurrencies</p>
           <div className="input-container">
             <input type="email" placeholder="Enter your email" />
