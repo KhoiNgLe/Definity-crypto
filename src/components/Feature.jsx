@@ -30,7 +30,7 @@ const Feature = () => {
       <div className="container">
         <div className="left">
           <h2>Explore top Crypto's Like Bitcoin, Ethereum, and Dogecoin</h2>
-          <p>See all available assets: Crptocurrencies and NFT's</p>
+          <p>See all available assets: Cryptocurrencies and NFT's</p>
           <button className="btn">See More Coins</button>
         </div>
         <div className="right">
@@ -46,13 +46,13 @@ const Feature = () => {
 
             {data[0].price_change_percentage_24h < 0 ? (
               <span className="red">
-                <FiArrowDown />
+                <FiArrowDown className ="icon"/>
                 {data[0].price_change_percentage_24h.toFixed(2)}%{" "}
               </span>
             ) : (
               <span className="green">
                 {" "}
-                <FiArrowUpRight />
+                <FiArrowUpRight className ="icon"/>
                 {data[0].price_change_percentage_24h.toFixed(2)}%
               </span>
             )}
@@ -68,13 +68,13 @@ const Feature = () => {
 
             {data[1].price_change_percentage_24h < 0 ? (
               <span className="red">
-                <FiArrowDown />
+                <FiArrowDown className ="icon"/>
                 {data[1].price_change_percentage_24h.toFixed(2)}%{" "}
               </span>
             ) : (
               <span className="green">
                 {" "}
-                <FiArrowUpRight />
+                <FiArrowUpRight className ="icon"/>
                 {data[1].price_change_percentage_24h.toFixed(2)}%
               </span>
             )}
@@ -90,13 +90,13 @@ const Feature = () => {
 
             {data[2].price_change_percentage_24h < 0 ? (
               <span className="red">
-                <FiArrowDown />
+                <FiArrowDown className ="icon"/>
                 {data[0].price_change_percentage_24h.toFixed(2)}%{" "}
               </span>
             ) : (
               <span className="green">
                 {" "}
-                <FiArrowUpRight />
+                <FiArrowUpRight className ="icon"/>
                 {data[2].price_change_percentage_24h.toFixed(2)}%
               </span>
             )}
@@ -112,13 +112,13 @@ const Feature = () => {
 
             {data[3].price_change_percentage_24h < 0 ? (
               <span className="red">
-                <FiArrowDown />
+                <FiArrowDown className ="icon"/>
                 {data[3].price_change_percentage_24h.toFixed(2)}%{" "}
               </span>
             ) : (
               <span className="green">
                 {" "}
-                <FiArrowUpRight />
+                <FiArrowUpRight className ="icon"/>
                 {data[3].price_change_percentage_24h.toFixed(2)}%
               </span>
             )}
@@ -134,13 +134,13 @@ const Feature = () => {
 
             {data[4].price_change_percentage_24h < 0 ? (
               <span className="red">
-                <FiArrowDown />
+                <FiArrowDown className ="icon"/>
                 {data[4].price_change_percentage_24h.toFixed(2)}%{" "}
               </span>
             ) : (
               <span className="green">
                 {" "}
-                <FiArrowUpRight />
+                <FiArrowUpRight className ="icon"/>
                 {data[4].price_change_percentage_24h.toFixed(2)}%
               </span>
             )}
@@ -156,13 +156,13 @@ const Feature = () => {
 
             {data[5].price_change_percentage_24h < 0 ? (
               <span className="red">
-                <FiArrowDown />
+                <FiArrowDown className ="icon"/>
                 {data[5].price_change_percentage_24h.toFixed(2)}%{" "}
               </span>
             ) : (
               <span className="green">
                 {" "}
-                <FiArrowUpRight />
+                <FiArrowUpRight className ="icon"/>
                 {data[5].price_change_percentage_24h.toFixed(2)}%
               </span>
             )}
