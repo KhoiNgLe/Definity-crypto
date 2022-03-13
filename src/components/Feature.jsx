@@ -27,6 +27,7 @@ const Feature = () => {
 
   return (
     <div className="feature">
+      <section id="feature">
       <div className="container">
         <div className="left">
           <h2>Explore top Crypto's Like Bitcoin, Ethereum, and Dogecoin</h2>
@@ -169,6 +170,7 @@ const Feature = () => {
           </div>
         </div>
       </div>
+      </section>
     </div>
   );
 };

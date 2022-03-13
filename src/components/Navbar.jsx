@@ -21,13 +21,13 @@ const handleClick = () => {
                     <a href='/'>Home</a>
                 </li>
                 <li>
-                    <a href='/'>Feature</a>
+                    <a href='#feature'>Feature</a>
                 </li>
                 <li>
-                    <a href='/'>Earn</a>
+                    <a href='#signup'>Earn</a>
                 </li>
                 <li>
-                    <a href='/'>Contact</a>
+                    <a href='#footer'>Contact</a>
                 </li>
 
             </ul>

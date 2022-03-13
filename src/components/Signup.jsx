@@ -4,6 +4,7 @@ import "./Signup.css";
 const Signup = () => {
   return (
     <div className="signup">
+      <section id ="signup"> 
       <div className="container">
         <div className="left">
           <img src={Crypto} alt="" />
@@ -21,6 +22,7 @@ const Signup = () => {
           </div>
         </div>
       </div>
+      </section>
     </div>
   );
 };
